@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 
-from django.conf.urls import url, include
+from django.urls import path, include
 
 urlpatterns = [
-    url(r'^markitup/', include('markitup.urls')),
+    path('markitup/', include('markitup.urls')),
 ]
